@@ -1,0 +1,52 @@
+/* Write your CSS here */
+button {
+}
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-size: 50px;
+}
+button {
+  color: #dd1264;
+  background-color: #ffffff;
+  border: none;
+  /* outline: none; */
+  height: 40px;
+  width: 200px;
+  /* padding: 20px; */
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+p {
+  width: 230px;
+  height: 120px;
+  background-color: #fddddb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+@media screen and (min-width: 768px) {
+  .names-container {
+    display: flex;
+  }
+  .buttns-container {
+    margin-right: 100px;
+    width: 230px;
+  }
+}
